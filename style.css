@@ -1,0 +1,43 @@
+.header-container {
+  height: 60px;
+  text-align: center;
+  background-color: rgb(185, 250, 185);
+}
+
+.heading {
+  font-weight: 500;
+  padding: 10px;
+  font-style: italic;
+}
+
+.Dish-cart-container {
+  height: auto;
+  width: 220px;
+  border: 1px black solid;
+  border-radius: 20px;
+  text-align: center;
+  background-color: darkgray;
+  margin: 20px;
+}
+
+.Dish-cart-container img {
+  height: 250px;
+  width: 210px;
+  margin: 10px 0px;
+}
+
+.dishes-cart {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dishes-info {
+  padding: 10px;
+}
+
+.dishes-info button {
+  cursor: pointer;
+  background-color: rgb(185, 250, 185);
+  padding: 10px;
+  border-radius: 10px;
+}
